@@ -34,7 +34,9 @@ python process_logits.py
 ```
 
 - Stage 3: In this stage, the student models are trained via curriculum learning using the ranked dataset from the previous step. We use bayesian optimization to find the best parameters for the pacing function; scripts for performing the optimization are available for all datasets in the repository. To find the best pacing function for CosmosQA, run:
-```python search_pacing_function_params_cosmosqa.py```
+``` 
+python search_pacing_function_params_cosmosqa.py
+```
 
 
 ## Citation:
