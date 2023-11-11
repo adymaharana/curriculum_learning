@@ -29,7 +29,7 @@ The default location for the model checkpoints is ```./baselines/```. For Social
 
 - Ranking of training samples: In this preprocessing step before Stage 2, the predictions from teacher models are used to rank the training samples in the order of difficulty. To get predictions for CosmosQA, run
 ```
-bash cosmos.sh eval_valid
+bash cosmosqa.sh eval_valid
 python process_logits.py
 ```
 
